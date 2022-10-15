@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Dax;
+    src: url(assets/dax.ttf)
+  }
+
+
+  body{
+    background-color: #f4fafa;
+  }
+
+
+header{
+    font-size: 80px;
+    color: black;
+    font-family: Dax;
+    text-align: center;
+}
+
+header:hover{
+    color: #f9e73b;
+    transition-delay: 0.2s;
+}
+
+.container{
+  justify-content: space-around;
+  display: flex;
+  margin-top: 60px;
+}
+
+.personagem img{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  transition: 0.5s;
+}
+
+p{
+  font-size: 25px;
+  font-family: Dax;
+  text-align: center;
+}
+
+.personagem{
+  margin-top: 50px;
+}
+
+button{
+  font-size: 25px;
+  font-family: Dax;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+
+#fade, #modal,
+#modalBarney,
+#modalLily,
+#modalMarshall,
+#modalRobin,
+#modalTracy{
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+h2{
+  font-family: Dax;
+  font-size: 24px;
+}
+
+
+#open-modal, #open-modalBarney,
+#open-modalLily,
+#open-modalMarshall,
+#open-modalRobin,
+#open-modalTracy{
+  display: inline-block;
+  padding: 1rem;
+  background-color: #f9e73b;
+  color: black;
+  justify-content: center;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+#close-modal,
+#close-modalBarney,
+#close-modalLily,
+#close-modalMarshall,
+#close-modalRobin,
+#close-modalTracy{
+  display: inline-block;
+  padding: 1rem;
+  background-color: #2e3756;
+  color: #f9e73b;
+  justify-content: center;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+#open-modal:hover,
+#open-modalBarney:hover,
+#open-modalLily:hover,
+#open-modalMarshall:hover,
+#open-modalRobin:hover,
+#open-modalTracy:hover{
+    background-color:  #2e3756;
+    color: #f9e73b;
+    transition-delay: 0.2s;
+}
+
+#fade{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 5;
+}
+
+
+#modal,
+#modalBarney,
+#modalLily,
+#modalMarshall,
+#modalRobin,
+#modalTracy{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 10;
+  background-color: #f4fafa;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  max-width: 90%;
+  padding: 1.2rem;
+  border-bottom: 0.5rem;
+}
+
+.modal-header, 
+.modal-headerBarney,
+.modal-headerLily,
+.modal-headerMarshall,
+.modal-headerRobin,
+.modal-headerTracy{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.modal-body p,
+.modal-bodyBarney p,
+.modal-bodyLily p,
+.modal-bodyMarshall p,
+.modal-bodyRobin p,
+.modal-bodyTracy p{
+  margin-bottom: 1rem;
+}
+
+
+#modal.hide, #fade.hide,
+#modalBarney.hide, #fade.hide,
+#modalLily.hide, #fade.hide,
+#modalMarshall.hide, #fade.hide,
+#modalRobin.hide, #fade.hide,
+#modalTracy.hide, #fade.hide{
+  opacity: 0;
+  pointer-events: none;
+}
+
+#modal.hide,
+#modalBarney.hide,
+#modalLily.hide,
+#modalMarshall.hide,
+#modalRobin.hide,
+#modalTracy.hide{
+  top: 0;
+}
