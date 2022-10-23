@@ -8,6 +8,8 @@
 
 ### 1️⃣ Mini-projeto: Aplicar conceitos inicias de class, id do HTML5, seletores básicos de css e métodos simples de JS junto com modais
 
-![telainical](https://user-images.githubusercontent.com/40921734/195960270-09dc517b-e728-47a6-b4cf-b68db4bac8a5.gif)
+![himym1](https://user-images.githubusercontent.com/40921734/197419726-f4c1c819-34e5-4e7d-9054-5235e7bc4773.gif)
 
+## 🔓 1° Fase: Desafio HTML e animações com CSS [Curso Web da Cod3r]
 
+![himym2](https://user-images.githubusercontent.com/40921734/197419639-4b5cfbac-f3da-48d6-812e-b6a0178c91bc.gif)
